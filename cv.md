@@ -22,17 +22,14 @@ My job is related to data collection and analysis. I have to do my own calculati
 
 ## Code Example
 
-function weatherForecast(apiCalls) {
-fetch(apiCalls)
-.then(function (resp) {return resp.json()})
-.then(function (data) {
-forecastArr = data;
-dateForecast();
-arrForecast();
-})
-.catch(function () {
-});
-}
+function launch() {  
+`let collectionElement = document.querySelectorAll(".mainList input");`
+`for (let i = 0; i < collectionElement.length; i++) {`  
+`if (collectionElement[i].checked) {`  
+`request(collectionElement[i]);`  
+`}`  
+`}`  
+`}`
 
 ## Education
 
