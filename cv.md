@@ -36,12 +36,10 @@ dateForecast();
 
 arrForecast();
 
-})
+})  
+.catch(function () {
 
-    .catch(function () {
-
-    });
-
+});  
 }
 
 ## Education
