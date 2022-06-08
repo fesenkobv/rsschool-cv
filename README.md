@@ -1,2 +1,1 @@
-# rsschool-cv
-CV (fictional)
+https://fesenkobv.github.io/rsschool-cv/cv
