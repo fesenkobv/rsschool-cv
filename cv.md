@@ -31,8 +31,9 @@ function weatherForecast(apiCalls) {
  arrForecast();  
  })  
  .catch(function () {
-});
-}
+
+});  
+ }
 
 ## Education
 
