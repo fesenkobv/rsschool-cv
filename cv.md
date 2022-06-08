@@ -4,9 +4,10 @@
 
 ## Contact information:
 
-- ** Phone: **+7(916)350-29-01
-- ** E-mail: ** fesenko@mail.ru
-- \*\* GitHub: fesenkobv
+- **Location:** RF, Moscow
+- **Phone:** +7(916)350-29-01
+- **E-mail:** fesenko@mail.ru
+- **GitHub:** fesenkobv
 
 ## About Me
 
@@ -22,15 +23,23 @@ My job is related to data collection and analysis. I have to do my own calculati
 ## Code Example
 
 function weatherForecast(apiCalls) {
+
 fetch(apiCalls)
+
 .then(function (resp) { return resp.json() })
+
 .then(function (data) {
+
 forecastArr = data;
+
 dateForecast();
+
 arrForecast();
+
 })
 
     .catch(function () {
+
     });
 
 }
